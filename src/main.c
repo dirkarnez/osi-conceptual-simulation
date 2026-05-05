@@ -61,6 +61,14 @@ void osi_physical_layer(enum Role role, enum Connection connection) {
 
 }
 
+void fake_webbrowsing() {
+    
+}
+
+void fake_ssl_tls_encryption() {
+    
+}
+
 int main() {
     char msg[] = "Hello Computer B, i am Computer A!";
     printf("msg %d", sizeof(msg)); // contains \0
